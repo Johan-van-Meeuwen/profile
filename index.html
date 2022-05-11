@@ -2,50 +2,80 @@
 <html>
 
 <head>
-  <title>Johan's Page | Le Wagon</title>
+  <title>Cheeky Profile Page</title>
   <meta charset="UTF-8">
   <script src="https://kit.fontawesome.com/6e759bf7c0.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <img src="images/beams.jpeg" id="beams" alt="Beams">
+  <div>
+    <img id="beam" src="images/beams.jpeg" alt="Beams">
+  </div>
   <div class="container">
-    <h1>⚡️ Hello, I'm Johan! ⚡️</h1>
-    <h2>... and I ripped off another webpage</h2>
-    <h2> to create this one!</h2>
-    <img src="images/dancing.jpg" alt="Dancing Photo" class="profile-rounded">
-    <p>I love dancing 🕺, the gym 🏋🏼 and running 🏃🏼 I have an obscene number of siblings: 1 sister, 2 step-brothers and <strong>12 half-brothers and half-sisters 😱</strong></p>
-    <a href="https://tailwindui.com/" class="btn-rounded" target="_blank">Don't Click Me!</a>
+    <div class="card-heading">
+      <h1>⚡️ Hey, I'm Johan ⚡️</h1>
+      <h2>...and I ripped off another webpage<br>to create this one! 😈</h2>
+      <img src="images/headshot.jpg" alt="Headshot">
+      <h3>Two truths and a lie:</h3>
+      <p id="hinge"><em>(from my Hinge profile)</em></p>
+      <p> I'm currently <strong>changing</strong> careers 🧭 I won an award for "Quickest<br> Dancing Feet" at <strong>Infernos</strong> 🔥 I have <strong>twelve half-siblings</strong> 👩‍👩‍👧‍👦</p>
+      <a href="https://tailwindui.com" class="btn-blue" target="_blank">Don't Click Me!</a>
+    </div>
+
+    <div class="card-blue">
+      <img id="img-red" src="images/coffee.jpeg" alt="Coffee">
+      <h3>I love a coffee!</h3>
+      <p>Will happily spend hours chatting away in a cafe ☕️</p>
+      <a href="#" class="btn-blue">Back To Top!</a>
+    </div>
+
+    <div class="card-blue">
+      <img id="img-yellow" src="images/niece.jpeg" alt="Niece">
+      <h3>My niece is okay too</h3>
+      <p>She calls me "uncie" ❤️</p>
+      <a href="#" class="btn-blue">Back To Top!</a>
+    </div>
+
+    <div class="card-blue">
+      <img id="img-purple" src="images/dancing.jpg" alt="Dancing">
+      <h3>... and I love a dance</h3>
+      <p>Fastest dancing feet in SW London 🏆</p>
+      <a href="#" class="btn-blue">Back To Top!</a>
+    </div>
   </div>
-  <div class="img-bottom-left">
-    <img src="images/background_2.png" alt="Tongue Out" class="img-bottom-left">
+
+  <div class="img-left">
+    <img src="images/tongue_out.png" alt="Tongue Out">
   </div>
-  <div class="container"></div>
-  <div class="card">
-    <h3>Follow me</h3>
+
+  <div>
+    <img class="img-right" src="images/head_stand.png" alt="Headstand">
+  </div>
+
+  <div class="card-social">
+    <h3>Stalk me here</h3>
     <ul class="list-inline">
-      <li class="li-padding">
-        <a href="https://github.com/Johan-van-Meeuwen" target="_blank">
+      <li>
+        <a href="https://github.com/Johan-van-Meeuwen" target="_blank"">
           <i class="fa-brands fa-github"></i>
         </a>
       </li>
-      <li class="li-padding">
+      <li>
         <a href="https://www.linkedin.com/in/johan-van-meeuwen-13979880/" target="_blank">
           <i class="fa-brands fa-linkedin"></i>
         </a>
       </li>
-      <li class="li-padding">
+      <li>
         <a href="https://www.facebook.com" target="_blank">
           <i class="fa-brands fa-facebook"></i>
         </a>
       </li>
     </ul>
-  </div>
   </div>
 </body>
 
