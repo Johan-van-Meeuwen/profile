@@ -1,0 +1,157 @@
+body {
+  color: white;
+  background-color: #111827;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+h1 {
+  color: #23D3ED;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 16px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+p {
+  font-size: 20px;
+  padding-bottom: 24px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.btn-rounded {
+  color: #353C4C;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: #23D3ED;
+  transition: font-size;
+  transition-duration: 0.08s;
+  width: 32px;
+  height: 24px;
+  padding: 18px 14px;
+  border-radius: 8px;
+}
+
+.btn-rounded:hover {
+  color: #050409;
+  font-size: 20px;
+}
+
+.profile-rounded {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  margin: 24px;
+  box-shadow: 0px 0px 56px #23d3ec;
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+}
+
+.profile-rounded:hover {
+  box-shadow: 0px 0px 80px #23d3ec;
+  border-radius: 50%;
+}
+#beams {
+  position: absolute;
+  z-index: -2;
+  right: 0px;
+  width: 1200px;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img-bottom-left {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+  width: 525px;
+  height: 350px;
+}
+
+.img-bottom-right {
+  float: right;
+  z-index: -3;
+  opacity: 0.4;
+}
+
+.container {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  margin: 64px 400px;
+  background-color: #111827;
+  border: #23D3ED solid 0.9px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px #23d3ec;
+  transition-property: box-shadow;
+  transition-duration: 0.25s;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 40px #23d3ec;
+}
+
+ul {
+  padding: 0px 0px 0px 24px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  line-height: 40px;
+  font-size: 40px;
+
+}
+
+i {
+  color: #374151;
+  transition: font-size;
+  transition-duration: 0.08s;
+}
+
+i:hover {
+  color: #23D3ED;
+  font-size: 48px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
